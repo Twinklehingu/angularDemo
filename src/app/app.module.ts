@@ -5,16 +5,19 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FirstComponent } from './first/first.component';
 import { EventbindingComponent } from './eventbinding/eventbinding.component';
-
+import { TwdbComponent } from './twdb/twdb.component';
+import { FormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
     FirstComponent,
-    EventbindingComponent
+    EventbindingComponent,
+    TwdbComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
