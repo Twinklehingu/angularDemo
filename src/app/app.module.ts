@@ -10,6 +10,7 @@ import { FormsModule } from '@angular/forms';
 import { StructuralComponent } from './structural/structural.component';
 import { StructuralswitchComponent } from './structuralswitch/structuralswitch.component';
 import { StructuralforComponent } from './structuralfor/structuralfor.component';
+import { ChildComponent } from './child/child.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,7 +19,8 @@ import { StructuralforComponent } from './structuralfor/structuralfor.component'
     TwdbComponent,
     StructuralComponent,
     StructuralswitchComponent,
-    StructuralforComponent
+    StructuralforComponent,
+    ChildComponent
   ],
   imports: [
     BrowserModule,
