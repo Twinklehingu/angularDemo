@@ -29,7 +29,9 @@ export class EventbindingComponent implements OnInit {
   onClick(event){
     console.log(event)
     // this.message = "The button is clicked!"
-    this.message = "Event type: " +event.type
+    this.message = "Event type: " +event.type // one way interpolation/ data binding
+    //so from here message i am sending my data to above interpolation message to display
+    // this is one way data binding. now i want to get the data from UI so that I can use in my this funtion; called two way data binding
   }
   LogMessage(myInput){
     console.log(myInput);

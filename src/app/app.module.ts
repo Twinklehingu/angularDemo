@@ -7,12 +7,14 @@ import { FirstComponent } from './first/first.component';
 import { EventbindingComponent } from './eventbinding/eventbinding.component';
 import { TwdbComponent } from './twdb/twdb.component';
 import { FormsModule } from '@angular/forms';
+import { StructuralComponent } from './structural/structural.component';
 @NgModule({
   declarations: [
     AppComponent,
     FirstComponent,
     EventbindingComponent,
-    TwdbComponent
+    TwdbComponent,
+    StructuralComponent
   ],
   imports: [
     BrowserModule,
