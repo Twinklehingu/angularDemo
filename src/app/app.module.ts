@@ -9,6 +9,7 @@ import { TwdbComponent } from './twdb/twdb.component';
 import { FormsModule } from '@angular/forms';
 import { StructuralComponent } from './structural/structural.component';
 import { StructuralswitchComponent } from './structuralswitch/structuralswitch.component';
+import { StructuralforComponent } from './structuralfor/structuralfor.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,7 +17,8 @@ import { StructuralswitchComponent } from './structuralswitch/structuralswitch.c
     EventbindingComponent,
     TwdbComponent,
     StructuralComponent,
-    StructuralswitchComponent
+    StructuralswitchComponent,
+    StructuralforComponent
   ],
   imports: [
     BrowserModule,
