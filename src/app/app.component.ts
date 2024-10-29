@@ -6,6 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  message;
   title = 'angularDemo';
   public name = "Data sent from Parent to Child"
 }

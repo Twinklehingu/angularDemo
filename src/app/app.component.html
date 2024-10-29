@@ -9,5 +9,7 @@
   <!-- <app-structural></app-structural> -->
   <!-- <app-structuralswitch></app-structuralswitch> -->
   <!-- <app-structuralfor></app-structuralfor> -->
-  <app-child [parentData]="name"></app-child>
+  <app-child [parentData]="name" (childEvent)="message=$event"></app-child> 
+  <hr>
+  {{message}}
 </div>
