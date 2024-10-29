@@ -8,13 +8,15 @@ import { EventbindingComponent } from './eventbinding/eventbinding.component';
 import { TwdbComponent } from './twdb/twdb.component';
 import { FormsModule } from '@angular/forms';
 import { StructuralComponent } from './structural/structural.component';
+import { StructuralswitchComponent } from './structuralswitch/structuralswitch.component';
 @NgModule({
   declarations: [
     AppComponent,
     FirstComponent,
     EventbindingComponent,
     TwdbComponent,
-    StructuralComponent
+    StructuralComponent,
+    StructuralswitchComponent
   ],
   imports: [
     BrowserModule,
