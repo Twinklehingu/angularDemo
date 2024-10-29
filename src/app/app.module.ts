@@ -11,6 +11,7 @@ import { StructuralComponent } from './structural/structural.component';
 import { StructuralswitchComponent } from './structuralswitch/structuralswitch.component';
 import { StructuralforComponent } from './structuralfor/structuralfor.component';
 import { ChildComponent } from './child/child.component';
+import { PipesDemoComponent } from './pipes-demo/pipes-demo.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,7 +21,8 @@ import { ChildComponent } from './child/child.component';
     StructuralComponent,
     StructuralswitchComponent,
     StructuralforComponent,
-    ChildComponent
+    ChildComponent,
+    PipesDemoComponent
   ],
   imports: [
     BrowserModule,
